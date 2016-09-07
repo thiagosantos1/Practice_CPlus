@@ -1,0 +1,24 @@
+Copying objetcs - There're rules
+
+You have to always try to have this things in your code, to be a better and clear code.
+
+1) Destructor
+
+2) Assignment Operator
+  Temos q afirmar q quando copiamos um objeto(Class), devemos fazer uma copia profunda, Onde deletamos a memoria para onde o ponteiro estava apontando, criamos o ponteiro novamente, e dai copiamos elemento por elemento. Caso nao faça isso, ou seja tenta apenas Robot a = Robot b, oq acontece é que ambos apontara para a mesma posiçao em memoria, e quando o descontroctor rodar, ele tentara deletar o mesmo espaço em memoria duas vezes, gerando runtime error
+
+
+
+3) Copy Construtor
+
+	Podemos copiar um objeto atraves do construtor, passando como referencia outro objeto, e dai fazer uma copia profunda.
+
+
+Also, we can have the constructor and the default constructor in the same constructor. We just have to use :
+
+Constructor(int a=8){
+	
+}
+
+In that case, if the don't pass anything for a, it'll be 8 by default
+example in the file

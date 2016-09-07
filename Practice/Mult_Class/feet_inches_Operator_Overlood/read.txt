@@ -1,0 +1,3 @@
+Operator overlood é algo mt poderoso e que podemos usar em diversas situaçoes
+por exemplo, caso tenhamos que fazer uma apliçao para um carro autonomo, e quando temos q calculcar a distancia que o carro andou, devemos usar distancia e o tempo,
+porem oque pode acontecer é d alguem usar um input in metros e outra pessoa usar em feet. Nesse caso devemos criar uma class para metros, feet, etc. e dentro de cada uma, pegamos e criamos um overlood = por example, e convertemos todos os tipos de entradas para metros, feet ou etc. sendo assim sempre ira funcionar em qlq tipo de entrada
